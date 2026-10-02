@@ -12,7 +12,7 @@ class Command(BaseCommand) :
 
         while True :
             self.stdout.write(self.style.WARNING('---  Main Menu  ---'))
-            print('1. Transfer a money')
+            print('1. Transfer money')
             print('2. Deposit funds')
             print('3. Withdraw funds')
             print('4. Retrieve past statements')
